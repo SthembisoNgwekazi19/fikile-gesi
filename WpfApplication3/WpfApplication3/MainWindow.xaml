@@ -1,0 +1,14 @@
+﻿<Window x:Class="WpfApplication3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApplication3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <TextBox x:Name="inputBox" HorizontalAlignment="Left" Height="44" Margin="44,54,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btnUnitTests" Content="Button" HorizontalAlignment="Left" Margin="44,197,0,0" VerticalAlignment="Top" Width="194" Height="54" Click="btnUnitTests_Click" />
+
+    </Grid>
+</Window>
